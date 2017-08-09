@@ -1,0 +1,28 @@
+/*для строчки грида*/
+.table tbody tr.errorlight1 td {
+  background-color: #c05c5a;
+}
+.table tbody tr.errorlight2 td {
+  background-color: #c76e6c;
+}
+
+.table tbody tr.successlight td {
+  background-color: #E9F7E4;
+}
+
+/* Переопределение выделения отмеченной строки в таблице */
+.grid-view table.items tr.selected td { background:#DCEBF6 !important; }
+/* Цвет хедера таблицы*/
+.table th {background-color: #82B8D6;color:#FFFFFF;}
+
+
+.items thead th{
+  background-color: #82B8D6!important;
+  color:#FFFFFF!important;
+}
+
+
+
+.popover {
+  width: 400px;
+}
